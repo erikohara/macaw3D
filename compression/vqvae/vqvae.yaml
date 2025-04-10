@@ -1,0 +1,15 @@
+vq:
+  num_channels: 1
+  hidden_size: 8
+  k: 512
+  image_dim: 3
+
+training:
+  epochs: 250
+  batch_size: 64
+
+optim:
+  lr: .0002
+  beta: 1
+
+
