@@ -12,5 +12,5 @@ module load python/anaconda3-2018.12
 ####### Run your script #########################
 source ~/software/init-conda
 conda activate macaw
-python /home/erik.ohara/macaw/utils/scripts/3D/PCA_sklearn/PCA-slice-sklearn.py $SLURM_ARRAY_TASK_ID
+python /home/erik.ohara/macaw/utils/scripts/3D/PCA_sklearn/PCA-slice-z.py $SLURM_ARRAY_TASK_ID
 
