@@ -19,4 +19,4 @@ module load python/anaconda3-2018.12
 ####### Run your script #########################
 source ~/software/init-conda
 conda activate macaw    
-python -u /home/erik.ohara/macaw/utils/scripts/3D/AE3D/cf-generation_sex.py
+python -u /home/erik.ohara/macaw/utils/scripts/3D/AE3D/cf-generation_zero_difference.py
